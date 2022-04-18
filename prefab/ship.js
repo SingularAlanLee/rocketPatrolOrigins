@@ -16,4 +16,8 @@ class Ship extends Phaser.GameObjects.Sprite{
     reset(){
         this.x = game.config.width;
     }
+
+    overwriteSpeed(speed){
+        this.moveSpeed = speed;
+    }
 }
